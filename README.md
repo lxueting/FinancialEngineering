@@ -3,4 +3,4 @@ A beginner in C++ with a passion for financial engineering, aspire to implement 
 Created a Bond Pricer program.
 
 
-Created a European Option Pricing program which will output the price and delta of the option. 
+Created a European Option Pricing program which will output the price and delta of the option using Black Scholes Model.
