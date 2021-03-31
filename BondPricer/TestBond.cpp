@@ -94,8 +94,8 @@ int main()
 
             else if (choice==3)
             {
-                double A;       //cash flow of Annuity
-                std::cout << "Enter the amount of coupon payments: " << std::endl;
+                double A;       //coupon payment of bonds
+                std::cout << "Enter the % of Coupon payment (in decimals) : " << std::endl;
                 std::cin >> A;
                 if (A==0)
                 {

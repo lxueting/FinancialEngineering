@@ -66,7 +66,7 @@ double sbp::PresentValue(double Pn, long nPeriods, double r)
 double PresentValueOrdinaryAnnuity(double A, long nPeriods, double r)
 {
     double factor = 1.0 + r;
-    return A * (1 - 1/(sbp::power(factor, nPeriods))) / r;
+    return A * 1000 * (1 - 1/(sbp::power(factor, nPeriods))) / r;
 
 }
 
@@ -75,5 +75,5 @@ double PresentValueOrdinaryAnnuity(double A, long nPeriods, double r)
 double sbp::PresentValueBond(double A, long nPeriods, double r)
 {
     double factor = 1.0 + r;
-    return (A/r) * (1-1/(sbp::power(factor, nPeriods))) + (1000/sbp::power(factor, nPeriods));
+    return (A*1000/r) * (1-1/(sbp::power(factor, nPeriods))) + (1000/sbp::power(factor, nPeriods));
 }
