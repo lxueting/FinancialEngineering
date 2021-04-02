@@ -2,6 +2,8 @@
 
 2/4/2021
 
+-This was created to help improve the efficiency of working with binomial models, by massly reducing the time needed to generate this model compared to generating it on an Excel spreadsheet.
+
 -Created first binomial lattice for short rates. Will be developing further lattices for different assets in the future. 
 
 
